@@ -3,10 +3,33 @@
 
 >**Please see projects files in [FishShop](/FishShop) folder.**
 
-<br /> 
+<br />  
+
+## How to run
+
+:exclamation: **In order to run this programm, you will need to create a virtual environment.**
+>**To to that, type provided commands in your terminal:**
+>
+>_Go to your project folder:_
+>```
+>$ cd myproject
+>```
+>
+>_Create venv folder within:_
+>```
+>$ python3 -m venv venv
+>```
+>
+>_Activate your environment:_
+>```
+>$ . venv/bin/activate
+>```
+>
+> **If you having some troubles or working on Windows machine, feel free to visit [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/installation/)**
+
 <br /> 
 
-:warning: **This program requires ```Flask``` module installation. Installation instructions is provided below.**
+:warning: **This program requires ```Flask``` framework installation. Installation instructions is provided below.**
 > 
 > To check actual working version for this module please see [requirements.txt](requirements.txt).
 > 
