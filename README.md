@@ -27,6 +27,19 @@
 >
 > **If you having some troubles or working on Windows machine, feel free to visit [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/installation/)**
 
+**Then, you have to run flask in _FishShop_ project folder in terminal**
+>
+>_Go to **FishShop** folder:_
+>```
+>$ cd FishShop
+>```
+>
+>_Run flask:_
+>```
+>$ python -m flask run
+>```
+
+
 <br /> 
 
 :warning: **This program requires ```Flask``` framework installation. Installation instructions is provided below.**
