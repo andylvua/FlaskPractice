@@ -42,9 +42,9 @@
 
 <br /> 
 
-:warning: **This program requires ```Flask``` framework installation. Installation instructions is provided below.**
+:warning: **This program requires ```Flask``` framework and ```Flask-SQLAlchemy``` installation. Installation instructions is provided below.**
 > 
-> To check actual working version for this module please see [requirements.txt](requirements.txt).
+> To check actual working version for this all installations please see [requirements.txt](requirements.txt).
 > 
 > **Use** 
 > ``` CSS
