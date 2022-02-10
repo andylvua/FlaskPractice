@@ -1,4 +1,6 @@
-from main import app
+from main import app, db
+from models import Fish
+from flask import request
 
 
 @app.route('/')
@@ -14,5 +16,13 @@ def get_fish(_id):
 
 @app.route("/fish", methods=["POST"])
 def create_fish():
-    print("Fish created")
+    print(request.json["name"])
+    print(request.json["origin"])
+
+    fish = Fish(name=request.json["name"], origin=request.json["origin"])
+    db.session.add(fish)
+
+    db.session.commit()
+
+    print(Fish.query.all())
     return "Fish created"
